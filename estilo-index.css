@@ -1,0 +1,94 @@
+/* Início da  Barra de navegação superior*/
+* {margin-top: 0px;}
+
+body { background-color: #D7D6D6;
+	min-width: 700px;
+	
+}
+
+#container {position: relative; 
+	width : 80%; 
+	margin: 0px auto;
+min-width: 750px;}
+
+
+.barra-superior {	
+	background: #205AAC;
+	padding: 5px;
+	height: 63px;}
+
+.logobussula {
+	margin-top: -5px;
+	float: left ;
+	clear: left;
+	width:100px;
+	height: 63px}
+
+.logo {margin-left: -90px}
+
+
+.navegacao {float: right;
+	clear:right;
+	position: absolute;
+	top:10px; right: 10px}
+
+a.linkum:hover {background-color: lightblue;
+margin: 10px 4px;
+color: black;}
+
+a.linkum:link {text-decoration: none;
+	color: white;
+	padding: 5px;}
+
+a.linkum:visited {
+	color: white;}
+
+/* fim da barra de navegação*/
+
+
+/*início corpo da página*/
+
+
+
+	/*Início da coluna esquerda*/
+	#coluna-esquerda { position: absolute;
+
+		top:73px;left: 11%;
+	width:20%;}
+
+	ul { list-style-type: none; }
+
+	a.linkdois:link { color:black;
+	text-decoration: none; } 
+
+	/*Fim da coluna esquerda*/
+
+	/* início coluna principal*/
+	#coluna-principal {position: absolute;
+		
+		display:inline-block;
+		top:73px;
+		right:10%;
+	 width: 59%;
+		height: 200px; }
+
+	 a.linktres:link { text-decoration: none; }
+
+
+	/* fim da coluna principal*/
+
+	/* início do rodapé */
+#rodape { position: absolute; 
+bottom: -250px;
+left: 700px;}
+
+.copyright { width: 20px; 
+	position: relative;
+bottom: -5px;}
+
+/* fim do rodapé*/
+
+
+
+
+/* fim do corpo da página*/
